@@ -59,15 +59,20 @@
             </div>
             <div class="d-flex justify-content-between align-items-center mb-4">
                 <h6 class="font-weight-bolder">Showing 291 Tasks</h6>
-                <form class="form-inline">
-                    <label for="select-bar" class="text-muted">Sort by:</label>
-                    <select class="form-control border-0 bg-light mr-4" id="select-bar">
-                      <option>Most Popular</option>
-                      <option>most recent</option>
-                      <option>most old</option>
-                    </select>
+                <div class="d-flex">
+                    <p class="mt-1">sort by:</p>
+                    <div class="dropdown">
+                        <button class="btn btn-white p-1 mr-1 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                          Most popular
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">most popular</a>
+                          <a class="dropdown-item" href="#">most old</a>
+                          <a class="dropdown-item" href="#">most recent</a>
+                        </div>
+                      </div>
                     <a href="#" class="btn btn-outline-secondary" role="button">Filter<i class="fa fa-align-center" aria-hidden="true"></i></a>
-                </form>
+                </div>
             </div>
             <div class="card-columns mt-3 mb-3">
                 <div class="card">
