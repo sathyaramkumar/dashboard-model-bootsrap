@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- font cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="main row">
+        <section class="sidebar p-5 d-flex flex-column">
+            <a href="#" class="navbar-brand text-muted d-block font-weight-bolder mb-2">Workly</a>
+            <a href="#" class="btn btn-primary rounded-pill rounded-top-0 pl-5 pr-5 mb-5">+New Task</a>
+            <nav>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-muted">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-muted">My Task <span class="badge badge-primary ml-5">0</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-muted">Task Catalog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-muted">Community</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="bg-light p-3  mt-auto">
+                <p>You have <a href="#">Workly.com</a></p>
+            </div>
+        </section>
+
+
+        <section class="hero bg-light col mt-5 mb-5">
+           <div class="container">
+            <div class="d-flex justify-content-end align-items-center mt-3 mb-5">
+                <a href="#"><i class="fa fa-envelope p-2 text-muted bg-white rounded-circle mr-3" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-bell p-2 text-muted bg-white rounded-circle mr-3" aria-hidden="true"></i></a>
+                <img src="image/avatar-ali.png" alt="ali" style="width: 30px; height: 30px;">
+                <h6 class="font-weight-bolder ml-3" >Hat's & Things</h6>
+            </div>
+            <div class="input-group mb-4">
+                <input type="text" class="form-control pl-4 p-4" placeholder="Search tasks like product page,product photos">
+                <div class="input-group-append" id="button-addon4">
+                  <button class="btn btn-secondary" type="button">search</button>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h6 class="font-weight-bolder">Showing 291 Tasks</h6>
+                <form class="form-inline">
+                    <label for="select-bar" class="text-muted">Sort by:</label>
+                    <select class="form-control border-0 bg-light mr-4" id="select-bar">
+                      <option>Most Popular</option>
+                      <option>most recent</option>
+                      <option>most old</option>
+                    </select>
+                    <a href="#" class="btn btn-outline-secondary" role="button">Filter<i class="fa fa-align-center" aria-hidden="true"></i></a>
+                </form>
+            </div>
+            <div class="card-columns mt-3 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-sub-title text-muted">2 credits</h6>
+                        <h3 class="card-title font-weight-bolder">
+                            Increase confidence with TrustPilot reviews
+                        </h3>
+                        <span class="badge badge-primary">Integrations</span>
+                        <p class="card-text">
+                            Some kind of shor description can go here to better explain
+                            the recommended task.
+                        </p>
+                        <div class="card-footer d-flex justify-content-between bg-white border-0 p-0">
+                            <time><i class="fa fa-calendar-o" aria-hidden="true"></i> 2 Days</time>
+                            <div>
+                                <img src="image/avatar-ali.png" style="width: 30px; height: 30px;" alt="ali">
+                                <img src="image/avatar-anisha.png" style="width: 30px; height: 30px;" alt="anisha">
+                                <img src="image/avatar-richard.png" style="width: 30px; height: 30px;" alt="richard">
+                                <span>16</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-sub-title text-muted">2 credits</h6>
+                        <h3 class="card-title font-weight-bolder">
+                            Be social - Sell your stock directly on Instagram
+                        </h3>
+                        <span class="badge badge-danger">Marketing & Sales</span>
+                        <p class="card-text">
+                            Some kind of shor description can go here to better explain
+                            the recommended task.
+                        </p>
+                        <div class="card-footer d-flex justify-content-between bg-white border-0 p-0">
+                            <time><i class="fa fa-calendar-o" aria-hidden="true"></i> 1 Days</time>
+                            <div>
+                                <img src="image/avatar-ali.png" style="width: 30px; height: 30px;" alt="ali">
+                                <img src="image/avatar-anisha.png" style="width: 30px; height: 30px;" alt="anisha">
+                                <img src="image/avatar-richard.png" style="width: 30px; height: 30px;" alt="richard">
+                                <span>12</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-sub-title text-muted">2 credits</h6>
+                        <h3 class="card-title font-weight-bolder">
+                            Increase confidence with TrustPilot reviews
+                        </h3>
+                        <span class="badge badge-danger">Marketing & Sales</span>
+                        <p class="card-text">
+                            Some kind of shor description can go here to better explain
+                            the recommended task.
+                        </p>
+                        <div class="card-footer d-flex justify-content-between bg-white border-0 p-0">
+                            <time><i class="fa fa-calendar-o" aria-hidden="true"></i> 2 Days</time>
+                            <div>
+                                <img src="image/avatar-ali.png" style="width: 30px; height: 30px;" alt="ali">
+                                <img src="image/avatar-anisha.png" style="width: 30px; height: 30px;" alt="anisha">
+                                <img src="image/avatar-richard.png" style="width: 30px; height: 30px;" alt="richard">
+                                <span>16</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-sub-title text-muted">2 credits</h6>
+                        <h3 class="card-title font-weight-bolder">
+                            Increase the speed of your site on mobile & desktop
+                        </h3>
+                        <span class="badge badge-primary">Optimization</span>
+                        <p class="card-text">
+                            Some kind of shor description can go here to better explain
+                            the recommended task.
+                        </p>
+                        <div class="card-footer d-flex justify-content-between bg-white border-0 p-0">
+                            <time><i class="fa fa-calendar-o" aria-hidden="true"></i> 3 Days</time>
+                            <div>
+                                <img src="image/avatar-ali.png" style="width: 30px; height: 30px;" alt="ali">
+                                <img src="image/avatar-anisha.png" style="width: 30px; height: 30px;" alt="anisha">
+                                <img src="image/avatar-richard.png" style="width: 30px; height: 30px;" alt="richard">
+                                <span>16</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-sub-title text-muted">2 credits</h6>
+                        <h3 class="card-title font-weight-bolder">
+                            Increase confidence with TrustPilot reviews
+                        </h3>
+                        <span class="badge badge-primary">Integrations</span>
+                        <p class="card-text">
+                            Some kind of shor description can go here to better explain
+                            the recommended task.
+                        </p>
+                        <div class="card-footer d-flex justify-content-between bg-white border-0 p-0">
+                            <time><i class="fa fa-calendar-o" aria-hidden="true"></i> 2 Days</time>
+                            <a href="#" class="btn btn-primary pt-1 pb-1" role="button">+Add to Queue</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-sub-title text-muted">2 credits</h6>
+                        <h3 class="card-title font-weight-bolder">
+                            Increase the speed of your site on mobile & desktop
+                        </h3>
+                        <span class="badge badge-success">Optimization</span>
+                        <p class="card-text">
+                            Some kind of shor description can go here to better explain
+                            the recommended task.
+                        </p>
+                        <div class="card-footer d-flex justify-content-between bg-white border-0 p-0">
+                            <time><i class="fa fa-calendar-o" aria-hidden="true"></i> 3 Days</time>
+                            <div>
+                                <img src="image/avatar-ali.png" style="width: 30px; height: 30px;" alt="ali">
+                                <img src="image/avatar-anisha.png" style="width: 30px; height: 30px;" alt="anisha">
+                                <img src="image/avatar-richard.png" style="width: 30px; height: 30px;" alt="richard">
+                                <span>16</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           </div>
+        </section>
+    </div>
+    <!-- bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
